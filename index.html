@@ -6,15 +6,15 @@
     </head>
     <body>
         <div class = "top">
-            <img class="img1" src="images/img.jpg" ale="triangle">
+            <img class="img1" src="images/img.jpg" alt="triangle">
             <h1>Welcome to TriangleTracker</h1>
-            <img class="img2" src="images/img.jpg" ale="triangle">
+            <img class="img2" src="images/img.jpg" alt="triangle">
         </div>
         <div class = "main">
-            <form onsubmit ="splitString()">
+            <form onsubmit ="triangleTracker()">
                 <label class = "mysize" for="triangleSides">Input the sides of the triangle.</label>
-                <input class = "resize" type="text" id="tSides" placeholder="Type here">
-                <button class = "resize" value="splitString"><strong>ENTER</strong></button>
+                <input class = "resize" type="text" id="tSides" placeholder="height, base, hypotenuse" required></input>
+                <button class = "resize" value="triangleTracker"><strong>ENTER</strong></button>
             </form>
         </div>
         <script src="js/scripts.js"></script>
