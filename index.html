@@ -5,18 +5,18 @@
         <title>TriangleTracker</title>
     </head>
     <body>
-        <script src="js/scripts.js"></script>
         <div class = "top">
             <img class="img1" src="images/img.jpg" ale="triangle">
             <h1>Welcome to TriangleTracker</h1>
             <img class="img2" src="images/img.jpg" ale="triangle">
         </div>
         <div class = "main">
-            <form>
-                <label class = "mysize" for="triangleSides"><strong> Input the sides of the triangle.</strong></label>
-                <input class = "resize" type="numbers" id="triangleSides" name="triangleSides">
-                <button class = "resize"><strong>ENTER</strong></button>
+            <form onsubmit ="splitString()">
+                <label class = "mysize" for="triangleSides">Input the sides of the triangle.</label>
+                <input class = "resize" type="text" id="tSides" placeholder="Type here">
+                <button class = "resize" value="splitString"><strong>ENTER</strong></button>
             </form>
         </div>
+        <script src="js/scripts.js"></script>
     </body>
 </html>
